@@ -1,0 +1,325 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	background: #191919;
+}
+.header
+{
+	height: 100%;
+	width: 100%;
+}
+nav
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo
+{
+    color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span
+{
+	color: red;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover
+{
+	color: #f9004d;
+	transition: .4s;
+}
+.content
+{
+	position: relative;
+	padding: 50px 60px 10px;
+}
+h1
+{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+.h3
+{
+	color: #fcfc;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4
+{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+img
+{
+	height: 300px;
+	width: 300px;
+	float: right;
+	padding-right: 10%;
+}
+.about
+{
+	background:#101010;
+	width: 100%;
+	padding: 10px 0px;
+}
+.about-text h2
+{
+	height: 25px;
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.about-text .p
+{
+	color: red;
+	letter-spacing: 2px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+.about-text p
+{
+	color: #fcfc;
+	font-size: 15px;
+	width: 500px;
+	margin: 30px auto;
+	text-align: center;
+}
+.services
+{
+	background: #191919;
+	width: 100%;
+	padding: 10px 0px;
+}
+.services-text h2
+{
+	height: 0;
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card
+{
+	height: 250px;
+	width: 335px;
+	padding: 5px 35px;
+	background: #101010;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i
+{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: red;
+}
+.pra p
+{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+} 
+h3
+{
+    font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+span
+{
+	color: #f9004d;
+	font-weight: bold;
+}
+.projects
+{
+	background: #101010;
+	padding: 10px 0px;
+}
+.projects-text h2
+{
+	width: 100%;
+	height: 0;
+	color: white;
+	font-size: 50px;
+	margin: 30px auto;
+	text-align: center;
+	flex-direction: column;
+}
+.box1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card1
+{
+	height: 225px;
+	width: 335px;
+	padding: 10px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.pra1 p
+{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+} 
+.git
+{
+	padding: 25px 0px 0px 0px;
+	font-size: 0px;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.spi
+{
+	font-size: 22px;
+	color: purple;
+	font-weight: bold;
+}
+.sp
+{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+.projects-text a
+{
+	display: flex;
+	margin: 22px 100px;
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+}
+.projects-text a:hover
+{
+	transform: scale(1.1);
+	transition: .3s;
+}
+footer
+{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background:  #191919;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1)
+{
+	font-size: 22px;
+	color: white;
+	margin-bottom: 20px;
+}
+footer p:nth-child(2)
+{
+	color: white;
+	font-size: 25px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+	font-weight: bold;
+}
+.contact
+{
+	display: flex;
+}
+.span 
+{
+	color: #fcfc;
+}
+.contact a
+{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.contact a:hover
+{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end a
+{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.end a:hover
+{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end
+{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
